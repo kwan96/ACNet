@@ -1,3 +1,5 @@
+import os
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 import sys
 from ding_train import ding_train
 from base_config import get_baseconfig_by_epoch
